@@ -1,0 +1,74 @@
+### Unity ###
+# Этот файл .gitignore должен находиться в корневом каталоге вашего проекта Unity
+#
+# Получите последнюю версию с https://github.com/github/gitignore/blob/main/Unity.gitignore
+/[Ll]ibrary/
+/[Tt]emp/
+/[Oo]bj/
+/[Bb]uild/
+/[Bb]uilds/
+/[Ll]ogs/
+/[Uu]ser[Ss]ettings/
+
+# Записи MemoryCaptures могут занимать слишком много места.
+# Они также могут содержать конфиденциальные данные
+/[Mm]emoryCaptures/
+
+# Записи могут занимать слишком много места
+/[Rr]ecordings/
+
+# Раскомментируйте эту строку, если хотите игнорировать плагин Asset Store Tools
+# /[Aa]ssets/AssetStoreTools*
+
+# Автоматически сгенерированный плагин Jetbrains Rider
+/[Aa]ssets/Plugins/Editor/JetBrains*
+
+# Каталог кэша Visual Studio
+.vs/
+
+# Каталог кэша Gradle
+.gradle/
+
+# Автоматически сгенерированные файлы решений и проектов VS/MD/Consulo
+ExportedObj/
+.consulo/
+*.csproj
+*.unityproj
+*.sln
+*.suo
+*.tmp
+*.user
+*.userprefs
+*.pidb
+*.booproj
+*.svd
+*.pdb
+*.mdb
+*.opendb
+*.VC.db
+
+# Метафайлы, созданные Unity3D
+*.pidb.meta
+*.pdb.meta
+*.mdb.meta
+
+# Файл, созданный Unity3D для отчетов о сбоях
+sysinfo.txt
+
+# Сборки
+*.apk
+*.aab
+*.unitypackage
+*.app
+
+# Файл, созданный Crashlytics
+crashlytics-build.properties
+
+# Упакованные адресуемые объекты
+/[Aa]ssets/[Aa]ddressable[Aa]ssets[Dd]ata/*/*.bin*
+
+# Временные автоматически сгенерированные ресурсы Android
+/[Aa]ssets/[Ss]treamingAssets/aa.meta
+/[Aa]ssets/[Ss]treamingAssets/aa/*
+
+# Конец https://www.toptal.com/developers/gitignore/api/unity
